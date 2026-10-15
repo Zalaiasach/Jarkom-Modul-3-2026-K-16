@@ -84,7 +84,7 @@ grep -qxF 'bash /root/soal1_jichi.sh' /root/.bashrc || echo 'bash /root/soal1_ji
 ```
 
 * **Tangkapan Layar Bukti Pengujian:**
-![Bukti Pengujian Soal 1](images/soal1_jichi_routing.png)
+![Bukti Pengujian Soal 1](pic/soal-1/jinchi.png)
 
 ---
 
@@ -110,7 +110,7 @@ grep -qxF 'bash /root/soal2_tengen.sh' /root/.bashrc || echo 'bash /root/soal2_t
 ```
 
 * **Tangkapan Layar Bukti Pengujian:**
-![Bukti Pengujian Soal 2](images/soal2_tengen_ip.png)
+![Bukti Pengujian Soal 2](pic/soal-2/tengen.png)
 
 ---
 
@@ -133,7 +133,7 @@ grep -qxF 'bash /root/soal3_jichi.sh' /root/.bashrc || echo 'bash /root/soal3_ji
 ```
 
 * **Tangkapan Layar Bukti Pengujian:**
-![Bukti Pengujian Soal 3](images/soal3_jichi_relay.png)
+![Bukti Pengujian Soal 3](pic/soal-3/jinchi.png)
 
 ---
 
@@ -187,8 +187,9 @@ service isc-dhcp-server restart
 ```
 
 * **Tangkapan Layar Bukti Pengujian:**
-![Bukti Pengujian Soal 4](images/soal4_divisi_a_pool.png)
-
+![Bukti Pengujian Soal 4](pic/soal-4/tengen.png)   
+![Bukti Pengujian Soal 4](pic/soal-4/pool1.png)   
+![Bukti Pengujian Soal 4](pic/soal-4/pool2.png)   
 ---
 
 ### SOAL 5: Pengaturan Lease Time & DNS Divisi B (Network 3)
@@ -240,8 +241,10 @@ service isc-dhcp-server restart
 ```
 
 * **Tangkapan Layar Bukti Pengujian:**
-![Bukti Pengujian Soal 5](images/soal5_divisi_b_lease.png)
-
+![Bukti Pengujian Soal 5](pic/soal-5/ino.png)   
+![Bukti Pengujian Soal 5](pic/soal-5/miwa.png)   
+![Bukti Pengujian Soal 5](pic/soal-5/tengen1.png)   
+![Bukti Pengujian Soal 5](pic/soal-5/tengen2.png)   
 ---
 
 ### SOAL 6: Static Lease VIP Personel (`kugisaki`)
@@ -257,7 +260,8 @@ service isc-dhcp-server restart
 ```
 
 * **Tangkapan Layar Bukti Pengujian:**
-![Bukti Pengujian Soal 6](images/soal6_kugisaki_static.png)
+![Bukti Pengujian Soal 6](pic/soal-6/kugisaki.png)    
+![Bukti Pengujian Soal 6](pic/soal-6/tengen.png)    
 
 ---
 
@@ -275,7 +279,7 @@ service isc-dhcp-server restart
 ```
 
 * **Tangkapan Layar Bukti Pengujian:**
-![Bukti Pengujian Soal 7](images/soal7_network_parameters.png)
+![Bukti Pengujian Soal 7](pic/soal-7/itadori.png)
 
 ---
 
@@ -290,7 +294,8 @@ tcpdump -i eth0 -vvv -en -s 0 'port 67 or port 68'
 ```
 
 * **Tangkapan Layar Bukti Analisis Paket DORA:**
-![Bukti Pengujian Soal 8](images/soal8_dora_capture.png)
+![Bukti Pengujian Soal 8](pic/soal-8/tengen1.png)   
+![Bukti Pengujian Soal 8](pic/soal-8/tengen2.png)
 
 ---
 
@@ -313,7 +318,8 @@ echo "Relay dipulihkan."
 ```
 
 * **Tangkapan Layar Bukti Uji Gangguan & Pemulihan:**
-![Bukti Pengujian Soal 9](images/soal9_relay_failover.png)
+![Bukti Pengujian Soal 9](pic/soal-9/itadori-gagal.png)   
+![Bukti Pengujian Soal 9](pic/soal-9/itadori-berhasil.png)   
 
 ---
 
@@ -335,7 +341,8 @@ grep -qxF 'bash /root/soal10_jichi_autostart.sh' /root/.bashrc || echo 'bash /ro
 ```
 
 * **Tangkapan Layar Bukti Autostart (.bashrc):**
-![Bukti Pengujian Soal 10](images/soal10_autostart_verification.png)
+![Bukti Pengujian Soal 10](pic/soal-10/jichi.png)   
+![Bukti Pengujian Soal 10](pic/soal-10/tengen.png)   
 
 ---
 
