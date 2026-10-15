@@ -85,6 +85,7 @@ grep -qxF 'bash /root/soal1_jichi.sh' /root/.bashrc || echo 'bash /root/soal1_ji
 
 * **Tangkapan Layar Bukti Pengujian:**
 ![Bukti Pengujian Soal 1](images/soal1_jichi_routing.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/ea83ab94-2d26-424b-a0c1-17cb628e8309" />
 
 ---
 
