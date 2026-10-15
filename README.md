@@ -85,7 +85,6 @@ grep -qxF 'bash /root/soal1_jichi.sh' /root/.bashrc || echo 'bash /root/soal1_ji
 
 * **Tangkapan Layar Bukti Pengujian:**
 ![Bukti Pengujian Soal 1](images/soal1_jichi_routing.png)
-<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/ea83ab94-2d26-424b-a0c1-17cb628e8309" />
 
 ---
 
@@ -428,6 +427,7 @@ dig @192.219.1.3 jujutsu.k16.com
 
 * **Tangkapan Layar Bukti Pengujian DNS Master & Slave:**
 ![Bukti Pengujian Soal 11](images/soal11_bind9_master_slave.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/ec799c44-6c82-4c75-a0c4-0bc3ba788da0" />
 
 ---
 
@@ -556,6 +556,7 @@ ping -c 3 google.com
 
 * **Tangkapan Layar Bukti Pengujian CNAME, PTR, & Forwarder:**
 ![Bukti Pengujian Soal 12](images/soal12_cname_ptr_forwarder.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/26f9a61c-c47b-4b7e-9f0f-4ce919c6de4b" />
 
 ---
 
@@ -670,9 +671,11 @@ bash /root/soal13_inumaki.sh
 
 * **Tangkapan Layar Bukti Replikasi Master-Slave:**
 ![Bukti Pengujian Soal 13](images/soal13_mariadb_replication.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/f6d8e910-bf56-4c0c-8911-f81303fb21a8" />
 
 * **Tangkapan Layar Konfigurasi Terminal Live Master (Yaga):**
 ![Konfigurasi Master Yaga](images/soal13_yaga_master_real.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/75982d42-a983-41bf-a26b-a3ccbb576033" />
 
 ---
 
@@ -795,6 +798,7 @@ curl -i http://192.219.4.6/ | grep "HTTP/1.1" # Output: 403 Forbidden
 
 * **Tangkapan Layar Bukti Restriksi Akses:**
 ![Bukti Pengujian Soal 14](images/soal14_worker_restriction.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/b00023ee-d4a9-4ea6-b187-b0b81690a96a" />
 
 ---
 
@@ -863,6 +867,7 @@ for i in $(seq 1 12); do curl -s http://127.0.0.1/ | grep -o '"worker":"[^"]*"';
 
 * **Tangkapan Layar Bukti Weighted Round Robin 3:1:**
 ![Bukti Pengujian Soal 15](images/soal15_load_balancer_wrr.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/c2529fba-f083-4054-b724-a9f414b9eef7" />
 
 ---
 
@@ -938,6 +943,7 @@ mysql -u root -e "SELECT id, client_ip, worker_hostname FROM db_shibuya_k16.requ
 
 * **Tangkapan Layar Bukti Path Routing & Real IP Logging:**
 ![Bukti Pengujian Soal 16 dan 17](images/soal16_17_real_ip_gateway.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/66959268-0ec2-4a9f-911a-ec199518cd46" />
 
 ---
 
@@ -965,6 +971,7 @@ Menerapkan passive health check (`max_fails=2` dan `fail_timeout=5s`) di `geto` 
 
 * **Tangkapan Layar Bukti Failover Health Check (Kirara):**
 ![Bukti Pengujian Soal 18](images/soal18_failover_kirara.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/bee9c4c9-ef89-49c7-8bbc-89e5ad5c773d" />
 
 ---
 
@@ -995,6 +1002,7 @@ Halaman web frontend dicache selama 10 menit dengan header `X-Cache-Status` (`MI
 
 * **Tangkapan Layar Bukti Caching & Rate Limiting:**
 ![Bukti Pengujian Soal 19](images/soal19_caching_ratelimit.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/32e6bf2e-610f-43b0-aa8c-72aa1ff62039" />
 
 ---
 
@@ -1034,3 +1042,4 @@ tail -n 15 /var/log/nginx/access.log
 
 * **Tangkapan Layar Bukti Audit Benchmark & Log:**
 ![Bukti Pengujian Soal 20](images/soal20_benchmark_audit.png)
+<img width="1024" height="665" alt="image" src="https://github.com/user-attachments/assets/d95c6aa6-0906-4b33-ba8c-5cd67f82565e" />
